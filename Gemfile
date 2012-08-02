@@ -10,7 +10,7 @@ gem 'rspec-rails'
 if File.exists?("vendor/db-charmer")
   gem 'db-charmer', :path => 'vendor/db-charmer', :require => 'db_charmer'
 else
-  gem 'db-charmer', :git => 'git://github.com/sinsoku/db-charmer.git', branch: 'rails3.2.6'
+  gem 'db-charmer', :git => 'git://github.com/sinsoku/db-charmer.git', :branch => 'rails3.2.6'
 end
 
 # Detect Rails version we need to use
